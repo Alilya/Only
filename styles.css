@@ -8,10 +8,8 @@
     width: 100%;
 }
 
-.container .btn:hover {
-    opacity: 100%;
-}
- 
+
+
 .background{
     margin:0;
     padding: 0;
@@ -23,19 +21,28 @@
 /* buttons */
     
 .container .btn {
-    width: 41px;
-    height: 41px;
-    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    padding: 1%;
+    width: fit-content;
+    height: 41px; 
+
     position: absolute;
   
     color: white;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 20px;
     opacity: 80%;
+
+    transition: background-color 0.135s ease-in-out;
+}  
+.container .btn:hover {
+    opacity: 100%;
 }
-  
 
 .stadion{
     background-color: #6ABF4B;
