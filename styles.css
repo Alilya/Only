@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.container .btn:hover {
+    opacity: 100%;
+}
+ 
+.background{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* buttons */
+    
+.container .btn {
+    width: 41px;
+    height: 41px;
+    padding: 0;
+    position: absolute;
+  
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 80%;
+}
+  
+
+.stadion{
+    background-color: #6ABF4B;
+    top: 45%;
+    left: 35%;
+}
+.circle{
+    background-color: #3877EE;
+    top: 55%;
+    left: 55%;
+}
+
+.right-circle{
+    background-color: #6ABF4B;
+    top: 60%;
+    left: 68%;
+}
+.housing1{/* правее 2 раза круга */
+    background-color: #3877EE;
+    top: 65%;
+    left: 83%;
+}
+.housing2{ /* ступенька */
+    background-color: #6ABF4B;
+    top: 75%;
+    left: 55%;
+}
+.housing3{ /*причал */
+    background-color: #3877EE;
+    top: 65%;
+    left: 23%;
+}
+ .housing4{ /*левее всех */
+    background-color: #3877EE;
+    top: 25%;
+    left: 26%;
+}
+.housing5{ /* вокзал*/
+    background-color: #6ABF4B;
+    top: 36%;
+    left: 58%;
+}
+ .housing6{ /* справа вокзала*/
+    background-color: #3877EE;
+    top: 45%;
+    left: 73%;
+}
+.housing7{ /* самый верхний */
+    background-color: #3877EE;
+    top: 18%;
+    left: 72%;
+}
